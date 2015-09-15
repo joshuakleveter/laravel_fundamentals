@@ -10,7 +10,9 @@
     @yield('content')
   </div>
 
-  @yield('footer')
+  <footer>
+    @yield('footer')
+  </footer>
 
 </body>
 </html>

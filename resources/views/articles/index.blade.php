@@ -13,3 +13,7 @@
   @endforeach
 
 @endsection
+
+@section('footer')
+    <a href="articles/create">New Article</a>
+@endsection
