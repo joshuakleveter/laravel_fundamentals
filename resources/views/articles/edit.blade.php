@@ -3,7 +3,7 @@
 @section('content')
     <h1>Edit: {{ $article->title }}</h1>
 
-    {!! Form::open(['method'=>'PATCH', 'action'=>['ArticlesController@update', $article->id]]) !!}
+    {!! Form::model($article, ['method'=>'PATCH', 'action'=>['ArticlesController@update', $article->id]]) !!}
       <!-- title form input-->
       <div class="form-group">
         {!! Form::label('title', 'Title:') !!}
